@@ -1,0 +1,48 @@
+body{
+    background-color:#7bbfc2;
+}
+
+#form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: -20px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+#name{
+    font-family: 'Satisfy', cursive;
+    color: rgb(92, 141, 141);
+    border: 0px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bolder;
+    text-align: center;
+    width: 200px;
+    font-size: 150%;
+}
+#button{
+    background-color: rgb(92, 141, 141);
+    border-radius: 10px;
+    border: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: 'Satisfy',cursive;
+    color:rgb(26, 110, 116);
+    font-weight: bolder;
+    font-size: 25px;
+}
+#button_layout{
+    padding-left: 100px;
+    padding-top: 25px;
+}
+#button:hover{
+    background-color: aqua;
+    border-radius: 0px;
+
+}
+#input_layout{
+    padding-left: 50px;
+}
