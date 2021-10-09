@@ -39,14 +39,9 @@ body{
     padding-top: 25px;
 }
 #button:hover{
-    background-color: aqua;
-    border-radius: 0px;
+    background-color: slategray;
 
 }
 #input_layout{
     padding-left: 50px;
-}
-#logo{
-    height: 20px;
-    width: 20px;
 }

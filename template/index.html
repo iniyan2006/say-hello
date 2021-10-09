@@ -9,19 +9,20 @@
 </head>
 	<body>
 	<div id="form" class="form_layout">
-		<a href="/.."><img src="static\logo.png" alt="logo" id="logo"></a>
+		<a href="/.."><img src="../static/text.png" alt="logo" id="logo"></a>
 
 		<form  method="POST" action='greet'>
 			{%for message in get_flashed_messages()%}
-				<p><span style="font-weight: bolder;font-size: 20px;color:rgb(26, 110, 116);padding-left: 65px;font-family: 'Satisfy',cursive;">{{message}}</span></p>
+				<p><span style="font-weight: bolder;font-size: 30px;color:rgb(26, 110, 116);font-family: 'Satisfy',cursive;margin: 20px;text-align: center;">{{message}}I really <i class="nf nf-fa-heart"></i> 
+</span></p>
 			{% endfor %}
 			<div id="input_layout">
-			<input type="text" name="name_input">
+			<input type="text" id="name" name="name_input">
 			</div>
 			<br>
 			<div id="button_layout">
-			<input type="submit" id="button" value="Rock!" name="li">
-			
+			<input type="submit" id="button" value="Greet!" name="li">
+
 			</div>
 		</form>
 	</di>
