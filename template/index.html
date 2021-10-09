@@ -13,7 +13,7 @@
 
 		<form  method="POST" action='greet'>
 			{%for message in get_flashed_messages()%}
-				<p><span style="font-weight: bolder;font-size: 30px;color:rgb(26, 110, 116);font-family: 'Satisfy',cursive;margin: 20px;text-align: center;">{{message}}I really <i class="nf nf-fa-heart"></i> 
+				<p><span style="font-weight: bolder;font-size: 30px;color:rgb(26, 110, 116);font-family: 'Satisfy',cursive;margin: 20px;text-align: center;">{{message}}
 </span></p>
 			{% endfor %}
 			<div id="input_layout">
